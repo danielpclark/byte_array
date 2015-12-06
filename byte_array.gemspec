@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A Ruby version of Pythons bytearray()}
   spec.description   = %q{A Ruby version of Pythons bytearray(). With Pythons array behavior added.}
-  spec.homepage      = "http://github.com/danielpclark/byte_array"
+  spec.homepage      = "https://github.com/danielpclark/byte_array"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "minitest", "~> 5.0"
 end
